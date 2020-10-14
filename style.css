@@ -39,3 +39,19 @@
     z-index: -1;
     background-color: #ffb502;
 }
+
+nav.bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9994;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5em;
+    background: white;
+    padding: 0 2em;
+    border-bottom: 1px solid #cac9d8;
+    box-sizing: border-box;
+}
