@@ -15,3 +15,27 @@
     color: #fff;
     max-width: 100%;
 }
+
+.hero h1 em {
+    position: relative;
+    font-style: normal;
+    color: #181357;
+    margin: 0 .1em;
+    padding: 0 .2em;
+    z-index: 0;
+    white-space: nowrap;
+}
+
+.hero h1 em:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+    z-index: -1;
+    background-color: #ffb502;
+}
