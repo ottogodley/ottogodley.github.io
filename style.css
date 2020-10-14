@@ -40,7 +40,7 @@
     background-color: #ffb502;
 }
 
-nav.bar {
+#nav.bar {
     position: fixed;
     top: 0;
     left: 0;
