@@ -16,6 +16,10 @@
     max-width: 100%;
 }
 
+h2 {
+    font-family: "Modelica", "Source Sans Pro",sans-serif;
+}
+
 .hero h1 em {
     position: relative;
     font-style: normal;
