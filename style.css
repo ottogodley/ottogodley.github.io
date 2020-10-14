@@ -1,0 +1,7 @@
+:root {
+    --main-colour:#EBFAF8;
+}
+
+#body {
+    color: var(--main-colour);
+}
